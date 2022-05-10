@@ -1,0 +1,32 @@
+{
+    "name": "@nfjs/chartjs",
+    "version": "1.0.0",
+    "description": "Chart.JS module",
+    "license": "MIT",
+    "type": "module",
+    "main": "index.js",
+    "repository": {
+        "url": "https://github.com/nf-framework/nf-chartjs.git"
+    },
+    "author": {
+        "name": "Azat Yamalov",
+        "email": "yamalov.azat@live.com"
+    },
+    "contributors": [
+        {
+            "name": "Dmitry Boikov",
+            "email": "boikovdv@gmail.com"
+        },
+        {
+            "name": "Andrey Maksimov",
+            "email": "andrmaxmail@gmail.com"
+        }
+    ],
+    "dependencies": {
+        "chart.js": "^3.7.1"
+    },
+    "exports": {
+        ".": "./index.js",
+        "./nf-module.js": "./nf-module.js"
+    }
+}
